@@ -1,6 +1,6 @@
 - 👋 Hi, Myself Thanan
 - 👀 I’m interested in solving puzzles
-- 🌱 I’m currently learning Javascript and docker
+- 🌱 I’m currently learning Typescript and Kubernetes
 - 💞️ I’m looking forward a good role in fast moving firm
 - 📫 call me on <b>8925661701</b> or drop a note at thananjayan1988@gmail.com
 
