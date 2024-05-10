@@ -1,7 +1,7 @@
 - 👋 Hi, Myself Thanan
-- 👀 I’m currently working on Playwright
+- 👀 I’m currently working in Playwright with Typescript
 - 🌱 I’m learning Kubernetes
-- 💬 Ask me about Test Automation and TestOps
+- 💬 Ask me anything about Test Automation and TestOps
 - 📫 call me on <b>8925661701</b> or drop a note at thananjayan1988@gmail.com
 
 
@@ -9,9 +9,9 @@
 
 ## 🤝 Connect with me:
 
-[<img align="left" alt="ankitsharma_007 | Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />][facebook]
-[<img align="left" alt="ankitsharma_007 | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
-[<img align="left" alt="ankitsharma_007 | Medium" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />][medium]
+[<img align="left" alt="thanan | Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />][facebook]
+[<img align="left" alt="thanan | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img align="left" alt="thanan | Medium" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />][medium]
 
 
 <br />
@@ -37,17 +37,19 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thananauto&theme=tokyonight)
 
 <br/>
+
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Announcing A New Blazor Course](https://ankitsharmablogs.com/announcing-a-new-blazor-course/?utm_source=rss&utm_medium=rss&utm_campaign=announcing-a-new-blazor-course)
-- [How To Solve Sudoku Using Azure Form Recognizer](https://ankitsharmablogs.com/how-to-solve-sudoku-using-azure-form-recognizer/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-solve-sudoku-using-azure-form-recognizer)
-- [Going Serverless With Blazor](https://ankitsharmablogs.com/going-serverless-with-blazor/?utm_source=rss&utm_medium=rss&utm_campaign=going-serverless-with-blazor)
-- [Announcing A Free eBook On Angular and Firebase](https://ankitsharmablogs.com/announcing-a-free-ebook-on-angular-and-firebase/?utm_source=rss&utm_medium=rss&utm_campaign=announcing-a-free-ebook-on-angular-and-firebase)
-- [Optical Character Reader Using Angular And Azure Computer Vision](https://ankitsharmablogs.com/optical-character-reader-using-angular-and-azure-computer-vision/?utm_source=rss&utm_medium=rss&utm_campaign=optical-character-reader-using-angular-and-azure-computer-vision)
+- [Streamlining Docker Image Deployment to GitHub Container Registry with GitHub Actions](https://medium.com/@thananjayan1988/streamlining-docker-image-deployment-to-github-container-registry-with-github-actions-607f9d7ccd00)
+- [Automated Docker Image Deployment to Docker Registry using GitHub Actions Workflow](https://medium.com/@thananjayan1988/automated-docker-image-deployment-to-docker-registry-using-github-actions-workflow-430f46d5fdc1)
+- [Automating Deployment to Google Kubernetes Engine with GitHub Actions](https://medium.com/@thananjayan1988/automating-deployment-to-google-kubernetes-engine-with-github-actions-6405f583997b)
+- [Selenium 4.0: Can we reuse the browser session of chrome](https://medium.com/@thananjayan1988/selenium-4-0-can-we-reuse-the-browser-session-of-chrome-abac92e2e148)
+- [Leveraging KEDA for Auto Scaling Selenium Grid in Kubernetes](https://medium.com/@thananjayan1988/leveraging-keda-for-auto-scaling-selenium-grid-in-kubernetes-aa2319a12832)
 <!-- BLOG-POST-LIST:END -->
 
 <br/>
+
 [facebook]: https://www.facebook.com/thanan.jayan.7
 [linkedin]: https://www.linkedin.com/in/thananjayan-rajasekaran/
 [medium]: https://medium.com/@thananjayan1988
