@@ -41,6 +41,9 @@
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Deploying Two Tier(Flask + MySQL) Application in Kubernetes](https://medium.com/devops-dev/deploying-two-tier-flask-mysql-application-in-kubernetes-81e9f21b82e2)
+- [Deploying AeroKube Moon for Browser Automation with Playwright Using Helm](https://medium.com/devops-dev/deploying-aerokube-moon-for-browser-automation-with-playwright-using-helm-20ece0964048)
+- [Distroless: Efficient Playwright Testing with Minimal Docker Images](https://medium.com/@thananjayan1988/optimize-the-docker-image-for-playwright-tests-3688c7d4be5f)
 - [Streamlining Docker Image Deployment to GitHub Container Registry with GitHub Actions](https://medium.com/@thananjayan1988/streamlining-docker-image-deployment-to-github-container-registry-with-github-actions-607f9d7ccd00)
 - [Automated Docker Image Deployment to Docker Registry using GitHub Actions Workflow](https://medium.com/@thananjayan1988/automated-docker-image-deployment-to-docker-registry-using-github-actions-workflow-430f46d5fdc1)
 - [Automating Deployment to Google Kubernetes Engine with GitHub Actions](https://medium.com/@thananjayan1988/automating-deployment-to-google-kubernetes-engine-with-github-actions-6405f583997b)
