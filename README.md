@@ -1,7 +1,7 @@
 - 👋 Hi, Myself Thanan
 - 👀 I’m currently working in Playwright with Typescript
 - 🌱 I’m learning Kubernetes and Terraform
-- 💬 Ask me anything about Test Automation and TestOps
+- 💬 Ask me anything about Test Automation and DevOps
 - 📫 call me on <b>8925661701</b> or drop a note at thananjayan1988@gmail.com
 
 
