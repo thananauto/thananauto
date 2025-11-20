@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thananjayan Rajasekaran - QA Consultant & DevOps Professional Portfolio">
+    <title>Thananjayan Rajasekaran | QA Consultant & DevOps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">TR</div>
+                <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <!-- Left Column: Profile Info -->
+                    <div class="hero-profile">
+                        <div class="profile-image-wrapper">
+                            <img src="mypoto.png" alt="Thananjayan Rajasekaran" class="profile-image">
+                        </div>
+                        <h1 class="hero-title">Thananjayan Rajasekaran</h1>
+                        <p class="hero-subtitle">SDET | DevOps Engineer</p>
+                        <div class="social-links">
+                            <a href="https://github.com/thananauto" target="_blank" class="social-icon" title="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                            <a href="https://medium.com/@thananjayan1988" target="_blank" class="social-icon" title="Medium">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/thananjayan-rajasekaran/" target="_blank" class="social-icon" title="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                            </a>
+                            <a href="https://topmate.io/thananjayan" target="_blank" class="social-icon" title="Topmate">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: About Me -->
+                    <div class="hero-about">
+                        <h2 class="about-title">About Me</h2>
+                        <p class="about-text">
+                            Software Development Engineer in Test (SDET) and DevOps Engineer with over a decade of experience focused on accelerating the delivery of high-quality software. Expert in architecting robust, scalable test automation frameworks and integrating them directly into CI/CD pipelines. Proven history of optimizing infrastructure, driving continuous quality initiatives, and providing technical leadership to mature both QA and DevOps practices across Agile development cycles.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="mailto:thananjayan1988@gmail.com" class="btn-primary">Get In Touch</a>
+                            <a href="#contact" class="btn-secondary">Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Articles Section -->
+        <section id="articles" class="section articles">
+            <div class="container">
+                <h2 class="section-title">Latest Articles</h2>
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <div class="article-icon">📝</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/devops-dev/deploying-two-tier-flask-mysql-application-in-kubernetes-81e9f21b82e2" target="_blank">
+                                Deploying Two Tier(Flask + MySQL) Application in Kubernetes
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">🌙</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/devops-dev/deploying-aerokube-moon-for-browser-automation-with-playwright-using-helm-20ece0964048" target="_blank">
+                                Deploying AeroKube Moon for Browser Automation with Playwright Using Helm
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">🐳</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/@thananjayan1988/optimize-the-docker-image-for-playwright-tests-3688c7d4be5f" target="_blank">
+                                Distroless: Efficient Playwright Testing with Minimal Docker Images
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">📦</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/@thananjayan1988/streamlining-docker-image-deployment-to-github-container-registry-with-github-actions-607f9d7ccd00" target="_blank">
+                                Streamlining Docker Image Deployment to GitHub Container Registry with GitHub Actions
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">🚀</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/@thananjayan1988/automated-docker-image-deployment-to-docker-registry-using-github-actions-workflow-430f46d5fdc1" target="_blank">
+                                Automated Docker Image Deployment to Docker Registry using GitHub Actions Workflow
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">☁️</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/@thananjayan1988/automating-deployment-to-google-kubernetes-engine-with-github-actions-6405f583997b" target="_blank">
+                                Automating Deployment to Google Kubernetes Engine with GitHub Actions
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">🔄</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/@thananjayan1988/selenium-4-0-can-we-reuse-the-browser-session-of-chrome-abac92e2e148" target="_blank">
+                                Selenium 4.0: Can we reuse the browser session of chrome
+                            </a>
+                        </h3>
+                    </article>
+                    <article class="article-card">
+                        <div class="article-icon">⚡</div>
+                        <h3 class="article-title">
+                            <a href="https://medium.com/@thananjayan1988/leveraging-keda-for-auto-scaling-selenium-grid-in-kubernetes-aa2319a12832" target="_blank">
+                                Leveraging KEDA for Auto Scaling Selenium Grid in Kubernetes
+                            </a>
+                        </h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">Latest Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/playwright-tips-tricks" target="_blank">
+                                    playwright-tips-tricks
+                                </a>
+                            </h3>
+                            <div class="project-stats">
+                                <span class="stat">⭐ 10</span>
+                                <span class="stat">🔱 3</span>
+                            </div>
+                        </div>
+                        <p class="project-description">This repo consist of best practices and code which we might usefull in our day to life.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Playwright</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/playwright-ui-typescript" target="_blank">
+                                    playwright-ui-typescript
+                                </a>
+                            </h3>
+                            <div class="project-stats">
+                                <span class="stat">⭐ 16</span>
+                                <span class="stat">🔱 8</span>
+                            </div>
+                        </div>
+                        <p class="project-description">Sample set of UI test cases build with help of playwright tool</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Playwright</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/selenium-grid-k8s" target="_blank">
+                                    selenium-grid-k8s
+                                </a>
+                            </h3>
+                            <div class="project-stats">
+                                <span class="stat">⭐ 1</span>
+                            </div>
+                        </div>
+                        <p class="project-description">UI framework demonstrated with Selenide + ExtentReport + Dockerfile + gitworkflows + Grid in Kubernetes</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/blogs-post-flask-mysql" target="_blank">
+                                    blogs-post-flask-mysql
+                                </a>
+                            </h3>
+                            <div class="project-stats">
+                                <span class="stat">🔱 3</span>
+                            </div>
+                        </div>
+                        <p class="project-description">This is fully workable blog site built with flask as server, Bootstarp 4.0 as UI and mysql as a backend</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/playwright-cucumber-ts" target="_blank">
+                                    playwright-cucumber-ts
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="project-description">Sample boilerplate code repo build with cucumber-js + playwright + typescript for UI automation</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Cucumber</span>
+                            <span class="tech-tag">Playwright</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/restassured-example" target="_blank">
+                                    restassured-example
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="project-description">This repo consists of all example scenarios which demonstrates Serialization, Deserilaization, Request Specification, Response specification</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">RestAssured</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/web-expressjs-mongo-app" target="_blank">
+                                    web-expressjs-mongo-app
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="project-description">Sample code to demonstrate the ExpressJS app with MongoDB, and to deploy with kubernetes cluster with manifest file</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">
+                                <a href="https://github.com/thananauto/grid-k8s" target="_blank">
+                                    grid-k8s
+                                </a>
+                            </h3>
+                        </div>
+                        <p class="project-description">sample yaml files to setup a grid infrastructure using kubernetes</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">YAML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-footer">
+                    <a href="https://github.com/thananauto?tab=repositories" target="_blank" class="btn-primary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Summary -->
+        <section class="section highlights">
+            <div class="container">
+                <h2 class="section-title">Professional Summary</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🛠️</div>
+                        <h3>Infrastructure-as-Code (IaC)</h3>
+                        <p>Standardized and managed all infrastructure across Dev, QA, and Production environments using Terraform and Ansible, achieving 100% environment parity and reducing manual provisioning time by 90%.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🚀</div>
+                        <h3>CI/CD Pipeline Architecture</h3>
+                        <p>Designed and implemented a high-availability, multi-region CI/CD pipeline (using Jenkins/EKS) that handles over 20 daily deployments with zero downtime and a recovery time objective (RTO) of less than 5 minutes.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🔒</div>
+                        <h3>DevSecOps Integration</h3>
+                        <p>Embedded security tools (e.g., SAST/DAST) into the CI/CD pipeline, ensuring automated vulnerability scanning and remediation before deployment, which decreased critical security risks in production by 60%.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🎯</div>
+                        <p>Optimized testing processes by implementing Agile and SDLC Test Strategies, driving efficiency through active collaboration in standups, grooming sessions, and retrospectives</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">�</div>
+                        <p>Delivered comprehensive test strategies and solutions for API services, significantly reducing defect leakage and ensuring faster time-to-market</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">⏱️</div>
+                        <p>Saved 30% of testing time by developing a robust test automation framework using Appium, specifically tailored for TV platforms</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">☁️</div>
+                        <p>Enhanced browser automation capabilities by engineering a scalable Kubernetes infrastructure, optimizing resource utilization and reducing execution time by 40%</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💼</div>
+                        <p>Streamlined project delivery by consulting with stakeholders to design and implement tailored test automation solutions, reducing defects and rework</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">⚡</div>
+                        <p>Enhanced efficiency and reliability in the delivery process by upgrading and optimizing clients' testing lifecycles, saving up to 30% in testing efforts</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Test Automation Architect</h3>
+                            <h4>CloudBees Inc - Chennai, India</h4>
+                            <p class="timeline-date">Feb 2025 - Till now</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Team Lead</h3>
+                            <h4>Qualitest - Bangalore, India</h4>
+                            <p class="timeline-date">Dec 2021 - Jan 2025</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Test Automation Consultant</h3>
+                            <h4>Interstars BV - Utrecht, Netherlands</h4>
+                            <p class="timeline-date">Jun 2019 - May 2020</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Test Automation Specialist</h3>
+                            <h4>RaboBank - Utrecht, Netherlands</h4>
+                            <p class="timeline-date">Sep 2017 - May 2019</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Associate</h3>
+                            <h4>Cognizant Technology Solution - Chennai, India</h4>
+                            <p class="timeline-date">Jan 2014 - Aug 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Javascript</span>
+                            <span class="skill-tag">Typescript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Testing & Automation Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Selenium</span>
+                            <span class="skill-tag">Selenide</span>
+                            <span class="skill-tag">Appium</span>
+                            <span class="skill-tag">Playwright</span>
+                            <span class="skill-tag">RestAssured</span>
+                            <span class="skill-tag">Pytest</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>DevOps & Infrastructure</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Maven</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education">
+            <div class="container">
+                <h2 class="section-title">Education & Certificates</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <h3>Bachelor of Engineering</h3>
+                        <h4>Anna University</h4>
+                        <p>Electronics and Communication</p>
+                        <p class="year">Completed in 2010</p>
+                    </div>
+                    <div class="education-card">
+                        <h3>ISTQB Foundation Level</h3>
+                        <p class="year">Issued on Sep 2011</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                            </svg>
+                        </div>
+                        <a href="mailto:thananjayan1988@gmail.com">thananjayan1988@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <a href="tel:+918925661701">+91 89256 61701</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </div>
+                        <a href="https://www.linkedin.com/in/thananjayan-rajasekaran/" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                            </svg>
+                        </div>
+                        <a href="https://medium.com/@thananjayan1988" target="_blank">Medium Blog</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <a href="https://github.com/thananauto" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Thananjayan Rajasekaran. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
