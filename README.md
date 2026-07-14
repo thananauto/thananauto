@@ -17,7 +17,7 @@
 <br />
 <br />
 
-![thananauto GitHub stats](https://github-readme-stats.vercel.app/api?username=thananauto&show_icons=true)
+![thananauto GitHub stats](https://github-stats-extended.vercel.app/api?username=thananauto&theme=radical)
 <br>
 ## 👨‍💻 Languages and Tools
 
