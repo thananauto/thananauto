@@ -17,8 +17,9 @@
 <br />
 <br />
 
-![thananauto GitHub stats](https://github-stats-extended.vercel.app/api?username=thananauto&theme=radical)
+ [![thanan GitHub stats](https://github-stats-extended.vercel.app/api/?username=thananauto&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=thanan's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)](https://github-stats-extended.vercel.app/api/?username=thananauto&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=thanan's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)
 <br>
+
 ## 👨‍💻 Languages and Tools
 
 <img align="left" alt="HTML5" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
@@ -34,7 +35,7 @@
 <br />
 <br />
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thananauto&theme=tokyonight)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=thananauto&langs_count=4)
 
 <br/>
 
